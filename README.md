@@ -7,6 +7,5 @@
 `python train_depp.py backbone_tree_file=$backbone_tree backbone_seq_file=$backbone_seq patience=5 lr=1e-4 embedding_size=$embedding_size`
 
 ## Query time
-### hyperbolic depp
 `python depp_distance.py query_seq_file=$query_seq backbone_seq_file=$backbone_seq model_path=$model_path outdir=$out_dir`
 
